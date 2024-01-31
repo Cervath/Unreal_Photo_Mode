@@ -7,6 +7,22 @@ This all starts because I wanted to make a photography game in Unreal with C++, 
 
 In this tutorial you will learn how to take screenshots, save them in the game (not on disk) and display them on screen. As I progress in my other project I will be uploading new features.
 
+This is what you will be able to achieve with the tutorial:
+
+
+
+https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/160fc2fd-efeb-430b-9bbe-65bd3dbc35cf
+
+
+
+Future changes to be implemented in this tutorial:
+
+
+
+https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/1c5ebd5e-7201-4227-a649-da24f91e44ee
+
+
+
 ### Credits
 Much of what is going to be done in this tutorial is taken from this series of videos: https://www.youtube.com/watch?v=kD6-YhuxQNs&t
 
@@ -401,5 +417,20 @@ void APhotoTestCharacter::NextImage(const FInputActionValue& Value) {
 
 }
 ```
+You already have a camera!
+
+Surely you have noticed that at the 4th picture you take, you get a shadow map error, and the pictures come out with black lines.
+In order to fix this, we will need to set r.Shadow.Virtual.Enable to 0 ( 1 to activate). 
+
+We have 2 ways, from the DefaultEngine.ini file (that we can find in the Config folder).
+![engine](https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/65e68bd1-cdf9-4b38-8ed0-122001f09ced)
+
+or from the command line in the editor to see it while we are playing.
+
+![comandos](https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/ab23d325-ac9d-4771-bcb2-723271b4d923)
+
+But by doing this we will lose some quality in the shadows.
+
+## Fin
 And that would be it! Now you should be able to take pictures, save them in the game and navigate through a visual interface.
 If you have any questions about the tutorial or how it has been explained, please contact me.
