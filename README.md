@@ -51,13 +51,18 @@ To implement this I work in the 5.2.1 version and use the FirstPerson template.
         - UI
 
 #### Nomenclature
-The variables are lowerCamelCase, and if they are class variables they will end with a _, and will have the prefix Category = " Design | " to be able to search them better in the editor.
+The variables are lowerCamelCase, and if they are class variables they will end with a _, will have the prefix Category = " Design | " to be able to search them better in the editor.
 
 e.g:
 ```c++
 	UPROPERTY(VisibleAnywhere, Category = "Design | example")
 		int32 exampleVar_;
 ```
+All classes start with PH_ to make the classes related to this project clearer and easier to find.
+
+e.g:
+
+PH_ExampleClas
 
 ## Tutorial
 
