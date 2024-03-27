@@ -1,6 +1,17 @@
 
 # Camera Photo in Unreal C++
 
+## Index
+
+- [Introduction](#introduction)
+	- [Credits](#credits)
+ 	- [Work Flow](#work-flow)
+  		- [Unreal Version and template](#unreal-version-and-template)
+    		- [Folder Hierarchy](#folder-hierarchy)
+      		- [Unreal Editor](#unreal-editor)
+        	- [Nomenclature](#nomenclature)
+- [Tutorial](#tutorial)
+	- [The USceneCaptureComponent2D](#the-uscenecapturecomponent2d)       
 
 ## Introduction
 This all starts because I wanted to make a photography game in Unreal with C++, but none of the information I found about it was what I needed, so with this tutorial, I will try to help anyone who wants to implement this mechanic in their game.
