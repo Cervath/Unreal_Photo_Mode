@@ -38,7 +38,8 @@ Future changes to be implemented in this tutorial:
 
 
 
-https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/1c5ebd5e-7201-4227-a649-da24f91e44ee
+https://github.com/Cervath/Unreal_Camera_Mode/assets/99689238/13ad6f41-f7c8-46a8-9f89-e360df2c56d0
+
 
 
 
