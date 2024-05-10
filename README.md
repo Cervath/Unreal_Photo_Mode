@@ -6,12 +6,20 @@
 - [Introduction](#introduction)
 	- [Credits](#credits)
  	- [Work Flow](#work-flow)
-  		- [Unreal Version and template](#unreal-version-and-template)
+  		- [Unreal Version and Template](#unreal-version-and-template)
     		- [Folder Hierarchy](#folder-hierarchy)
       		- [Unreal Editor](#unreal-editor)
         	- [Nomenclature](#nomenclature)
 - [Tutorial](#tutorial)
-	- [The USceneCaptureComponent2D](#the-uscenecapturecomponent2d)       
+	- [The USceneCaptureComponent2D](#the-uscenecapturecomponent2d)
+ 	- [Display Picture on Screen](#display-picture-on-screen)
+  		- [Texture and Material](#texture-and-material)
+  		- [Camera Widget](#camera-widget)
+  		- [The HUD Wrapper](#the-hud-wrapper)
+  		- [Connect all With Game Mode](#connect-all-with-a-game-mode)
+  		- [SceneCapture Settings](#scenecapture-settings)
+    	- [Save Images in Game (Not Disk)](#save-images-in-game)	 
+  	    
 
 ## Introduction
 This all starts because I wanted to make a photography game in Unreal with C++, but none of the information I found about it was what I needed, so with this tutorial, I will try to help anyone who wants to implement this mechanic in their game.
@@ -290,7 +298,7 @@ Uncheck Capture every frame and Capture in motion and check Always persist rende
 ![15](https://github.com/Cervath/CameraMode/assets/99689238/793bc74c-aaa9-4739-a80e-b0d173385554)
 
 
-### Save images in game (not disk)
+### Save images in game
 
 Now we are going to save all the photos we take and browse through them.
 
